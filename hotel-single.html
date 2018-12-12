@@ -82,625 +82,80 @@
     							<i class="icon-star-o"></i>
     							8 Rating</span>
             </p>
+
             <!-- TAB -->
             <div class="product-detail_tab">
                 <div class="row">
                     <div class="col-md-3">
                         <ul class="product-detail_tab-header">
-                            <li><a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#overview"
-                                   data-toggle="tab">OVERVIEW</a></li>
                             <li class="active"><a
-                                    href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#amenities"
-                                    data-toggle="tab">Tour</a></li>
-                            <li><a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#package"
-                                   data-toggle="tab">Foods</a></li>
-                            <li><a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#rates"
-                                   data-toggle="tab">Rules</a></li>
-                            <!--<li><a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#calendar" data-toggle="tab">Calendar</a></li>-->
+                                    href="#overview"
+                                    data-toggle="collapse">Overview</a></li>
+                            <li><a
+                                    href="#tour"
+                                    data-toggle="collapse">Tour</a></li>
+                            <li><a
+                                    href="#foods"
+                                    data-toggle="collapse">Foods</a></li>
+                            <li><a href="#rules"
+                                   data-toggle="collapse">Rules</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-9">
-                        <div class="product-detail_tab-content tab-content">
-                            <!-- OVERVIEW -->
-                            <div class="tab-pane fade" id="overview">
-                                <div class="product-detail_overview">
-                                    <h5 class="text-uppercase">de Finibus Bonorum et Malorum", written by Cicero in 45
-                                        BC</h5>
-                                    <p>Located in the heart of Aspen with a unique blend of contemporary luxury and
-                                        historic heritage, deluxe accommodations, superb amenities, genuine hospitality
-                                        and dedicated service for an elevated experience in the Rocky Mountains.</p>
-                                    <div class="row">
-                                        <div class="col-xs-6 col-md-4">
-                                            <h6>SPECIAL ROOM</h6>
-                                            <ul>
-                                                <li>Max: 4 Person(s)</li>
-                                                <li>Size: 35 m2 / 376 ft2</li>
-                                                <li>View: Ocen</li>
-                                                <li>Bed: King-size or twin beds</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-xs-6 col-md-4">
-                                            <h6>SERVICE ROOM</h6>
-                                            <ul>
-                                                <li>Oversized work desk</li>
-                                                <li>Hairdryer</li>
-                                                <li>Iron/ironing board upon request</li>
-                                            </ul>
-                                        </div>
+
+                        <div class="col-md-9">
+                            <div id="accordion">
+                            <div class="product-detail_tab-content tab-content">
+                                <!-- OVERVIEW -->
+                                <div class="collapse show" id="overview" data-parent="#accordion">
+                                    <div class="product-detail_overview">
+                                        <h5 class="text-uppercase">de Finibus Bonorum et Malorum", written by Cicero in 45
+                                            BC</h5>
+                                        <p>Located in the heart of Aspen with a unique blend of contemporary luxury and
+                                            historic heritage, deluxe accommodations, superb amenities, genuine hospitality
+                                            and dedicated service for an elevated experience in the Rocky Mountains.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- END / OVERVIEW -->
-                            <!-- AMENITIES -->
-                            <div class="tab-pane fade active in" id="amenities">
-                                <div class="product-detail_amenities">
-                                    <p>Located in the heart of Aspen with a unique blend of contemporary luxury and
-                                        historic heritage, deluxe accommodations, superb amenities, genuine hospitality
-                                        and dedicated service for an elevated experience in the Rocky Mountains.</p>
-                                    <div class="row">
-                                        <div class="col-xs-6 col-lg-4">
-                                            <h6>LIVING ROOM</h6>
-                                            <ul>
-                                                <li>Oversized work desk</li>
-                                                <li>Hairdryer</li>
-                                                <li>Iron/ironing board upon request</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-xs-6 col-lg-4">
-                                            <h6>KITCHEN ROOM</h6>
-                                            <ul>
-                                                <li>AM/FM clock radio</li>
-                                                <li>Voicemail</li>
-                                                <li>High-speed Internet access</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-xs-6 col-lg-4">
-                                            <h6>balcony</h6>
-                                            <ul>
-                                                <li>AM/FM clock radio</li>
-                                                <li>Voicemail</li>
-                                                <li>High-speed Internet access</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-xs-6 col-lg-4">
-                                            <h6>bedroom</h6>
-                                            <ul>
-                                                <li>Coffee maker</li>
-                                                <li>25 inch or larger TV</li>
-                                                <li>Cable/satellite TV channels</li>
-                                                <li>AM/FM clock radio</li>
-                                                <li>Voicemail</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-xs-6 col-lg-4">
-                                            <h6>bathroom</h6>
-                                            <ul>
-                                                <li>Dataport</li>
-                                                <li>Phone access fees waived</li>
-                                                <li>24-hour Concierge service</li>
-                                                <li>Private concierge</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-xs-6 col-lg-4">
-                                            <h6>Oversized work desk</h6>
-                                            <ul>
-                                                <li>Dataport</li>
-                                                <li>Phone access fees waived</li>
-                                                <li>24-hour Concierge service</li>
-                                                <li>Private concierge</li>
-                                            </ul>
-                                        </div>
+                                <!-- END / OVERVIEW -->
+                                <!-- TOUR -->
+                                <div class="collapse" id="tour" data-parent="#accordion">
+                                    <div class="product-detail_amenities">
+                                        <p>Located in the heart of Aspen with a unique blend of contemporary luxury and
+                                            historic heritage, deluxe accommodations, superb amenities, genuine hospitality
+                                            and dedicated service for an elevated experience in the Rocky Mountains.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- END / AMENITIES -->
-                            <!-- PACKAGE -->
-                            <div class="tab-pane fade" id="package">
-                                <div class="product-detail_package">
-                                    <!-- ITEM package -->
-                                    <div class="product-package_item">
-                                        <div class="text">
-                                            <h4>
-                                                <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">package
-                                                    standar</a></h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s, when an unknown printer took a galley of type and
-                                                scrambled</p>
-                                            <div class="product-package_price">
-                                                <p class="price">
-                                                    <span class="amout">$260</span> / Package
-                                                </p>
-                                                <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#"
-                                                   class="btn btn-room">BOOK PACKIT</a>
-                                            </div>
+                                <!-- END / TOUR -->
+                                <!-- FOODS -->
+                                <div class="collapse" id="foods" data-parent="#accordion">
+                                    <div class="product-detail_package">
+                                        <!-- ITEM package -->
+                                        <div class="product-package_item">
                                         </div>
-                                    </div>
-                                    <!-- END / ITEM package -->
-                                    <!-- ITEM package -->
-                                    <div class="product-package_item">
-                                        <div class="text">
-                                            <h4>
-                                                <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">package
-                                                    standar</a></h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s, when an unknown printer took a galley of type and
-                                                scrambled</p>
-                                            <div class="product-package_price">
-                                                <p class="price">
-                                                    <span class="amout">$340</span> / Package
-                                                </p>
-                                                <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#"
-                                                   class="btn btn-room">BOOK PACKIT</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- END / ITEM package -->
-                                    <!-- ITEM package -->
-                                    <div class="product-package_item">
-                                        <div class="text">
-                                            <h4>
-                                                <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">package
-                                                    standar</a></h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s, when an unknown printer took a galley of type and
-                                                scrambled</p>
-                                            <div class="product-package_price">
-                                                <p class="price">
-                                                    <span class="amout">$420</span> / Package
-                                                </p>
-                                                <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#"
-                                                   class="btn btn-room">BBOOK PACKIT</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- END / ITEM package -->
-                                </div>
-                            </div>
-                            <!-- END / PACKAGE -->
-                            <!-- RATES -->
-                            <div class="tab-pane fade" id="rates">
-                                <div class="product-detail_rates">
-                                    <table>
-                                        <thead>
-                                        <tr>
-                                            <th>Rate Period</th>
-                                            <th>Nightly</th>
-                                            <th>Weekend Night</th>
-                                            <th>Weekly</th>
-                                            <th>Monthly</th>
-                                            <th>Event</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>
-                                                <h6>Spring/Summer Season</h6>
-                                                <ul>
-                                                    <li>Jun 1 - Aug 31</li>
-                                                    <li>3 night minimum stay</li>
-                                                </ul>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$320</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$23</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$120</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$100</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$89</span></p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Summer/Fall Season</h6>
-                                                <ul>
-                                                    <li>Jun 1 - Aug 31</li>
-                                                    <li>3 night minimum stay</li>
-                                                </ul>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$150</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$130</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$100</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$80</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$85</span></p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Christmas Season</h6>
-                                                <ul>
-                                                    <li>Jun 1 - Aug 31</li>
-                                                    <li>3 night minimum stay</li>
-                                                </ul>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$225</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$200</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$180</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$160</span></p>
-                                            </td>
-                                            <td>
-                                                <p class="price"><span class="amout">$140</span></p>
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <!-- END / RATES -->
-                            <!-- CALENDAR -->
-                            <div class="tab-pane fade" id="calendar">
-                                <div class="product-detail_calendar-wrap row">
-                                    <div class="col-sm-6">
-                                        <!-- CALENDAR ITEM -->
-                                        <div class="calendar_custom">
-                                            <div class="calendar_title">
-                                                <span class="calendar_month">JUNE</span>
-                                                <span class="calendar_year">2017</span>
-                                                <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#"
-                                                   class="calendar_prev calendar_corner"><i
-                                                        class="ion-ios-arrow-thin-left"></i></a>
-                                            </div>
-                                            <table class="calendar_tabel">
-                                                <thead>
-                                                <tr>
-                                                    <th>Su</th>
-                                                    <th>Mo</th>
-                                                    <th>Tu</th>
-                                                    <th>We</th>
-                                                    <th>Th</th>
-                                                    <th>Fr</th>
-                                                    <th>Sa</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td></td>
-                                                    <td class="apb-calendar_current-date">
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>1</small>
-                                                        </a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>2</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>3</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>4</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>5</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>6</small>
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>7</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>8</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>9</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>10</small>
-                                                        </a></td>
-                                                    <td class="apb-calendar_current-select"><a
-                                                            href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                        <small>11</small>
-                                                    </a></td>
-                                                    <td class="apb-calendar_current-select"><a
-                                                            href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                        <small>12</small>
-                                                    </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>13</small>
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>14</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>15</small>
-                                                        </a></td>
-                                                    <td class="not-available"><a
-                                                            href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                        <small>16</small>
-                                                    </a></td>
-                                                    <td class="not-available"><a
-                                                            href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                        <small>17</small>
-                                                    </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>18</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>19</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>20</small>
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>21</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>22</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>23</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>24</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>25</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>26</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>27</small>
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>28</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>29</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>30</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>31</small>
-                                                        </a></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <!-- END CALENDAR ITEM -->
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <!-- CALENDAR ITEM -->
-                                        <div class="calendar_custom">
-                                            <div class="calendar_title">
-                                                <span class="calendar_month">JUNE</span>
-                                                <span class="calendar_year">2017</span>
-                                                <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#"
-                                                   class="calendar_next calendar_corner"><i
-                                                        class="ion-ios-arrow-thin-right"></i></a>
-                                            </div>
-                                            <table class="calendar_tabel">
-                                                <thead>
-                                                <tr>
-                                                    <th>Su</th>
-                                                    <th>Mo</th>
-                                                    <th>Tu</th>
-                                                    <th>We</th>
-                                                    <th>Th</th>
-                                                    <th>Fr</th>
-                                                    <th>Sa</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td></td>
-                                                    <td class="apb-calendar_current-date">
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>1</small>
-                                                        </a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>2</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>3</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>4</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>5</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>6</small>
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>7</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>8</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>9</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>10</small>
-                                                        </a></td>
-                                                    <td class="apb-calendar_current-select"><a
-                                                            href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                        <small>11</small>
-                                                    </a></td>
-                                                    <td class="apb-calendar_current-select"><a
-                                                            href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                        <small>12</small>
-                                                    </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>13</small>
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>14</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>15</small>
-                                                        </a></td>
-                                                    <td class="not-available"><a
-                                                            href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                        <small>16</small>
-                                                    </a></td>
-                                                    <td class="not-available"><a
-                                                            href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                        <small>17</small>
-                                                    </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>18</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>19</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>20</small>
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>21</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>22</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>23</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>24</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>25</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>26</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>27</small>
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>28</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>29</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>30</small>
-                                                        </a></td>
-                                                    <td>
-                                                        <a href="http://landing.engotheme.com/html/skyline/demo/room_detail.html#">
-                                                            <small>31</small>
-                                                        </a></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <!-- END CALENDAR ITEM -->
-                                    </div>
-                                    <div class="calendar_status text-center col-sm-12">
-                                        <span>Available</span>
-                                        <span class="not-available">Not Available</span>
+                                        <!-- END / ITEM package -->
+                                        <!-- ITEM package -->
+
+                                        <!-- END / ITEM package -->
+                                        <!-- ITEM package -->
+                                       
+                                        <!-- END / ITEM package -->
                                     </div>
                                 </div>
+                                <!-- END / FOODS -->
+                                <!-- RULES -->
+                                <div class="collapse" id="rules" data-parent="#accordion">
+                                    <div class="product-detail_rates">
+
+                                    </div>
+                                </div>
+                                <!-- END / RULES -->
+
                             </div>
-                            <!-- END / CALENDAR -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
             <h4 class="mb-4">Take A Tour</h4>
             <div class="block-16">
