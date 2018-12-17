@@ -121,7 +121,6 @@
                 }
             };
         }
-
         /******************** End Command Methods ********************/
 
 
@@ -173,7 +172,6 @@
                 options.select(element, $('#step' + i));
             }
         }
-
         /******************** End Private Methods ********************/
 
         return this;
