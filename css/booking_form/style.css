@@ -203,7 +203,7 @@ input[type="submit"], .agileits_copyright p a, a {
 }
 
 .error {
-    color: #d65c0d;
+    color: #f85959;
     display: block;
     font-size: 13px;
     font-style: italic;
@@ -222,7 +222,7 @@ input[type="submit"], .agileits_copyright p a, a {
     position: absolute;
     height: 15px;
     min-width: 10px;
-    background-color: #d65c0d;
+    background-color: #f85959;
     transition: width .5s ease-in-out;
     border-radius: 20px;
 }
@@ -302,14 +302,14 @@ input[type="submit"], .agileits_copyright p a, a {
     color: #fff;
     font-weight: 600;
     padding: 10px 45px;
-    background: #d65c0d;
+    background: #f85959;
     outline: none;
     border: none;
     cursor: pointer;
 }
 
 .w3_agile_main_grids h4 {
-    color: #d65c0d;
+    color: #f85959;
     font-size: 1em;
     text-transform: capitalize;
     text-align: center;
