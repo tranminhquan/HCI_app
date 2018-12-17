@@ -9431,14 +9431,15 @@ textarea.form-control {
   position: absolute;
   left: 0;
   bottom: -2px;
-  background: #8E7037;
+    background: #f85959;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 .product-detail_tab-header li.active a, .product-detail_tab-header li:hover a {
-  color: #8E7037; }
+    color: #f85959;
+}
 .product-detail_tab-header li.active a:before, .product-detail_tab-header li:hover a:before {
   width: 100%;
   -webkit-transition: all 0.3s ease-in-out;
@@ -9535,7 +9536,8 @@ textarea.form-control {
 .product-package_item .text h4 a {
   color: #333; }
 .product-package_item .text h4 a:hover {
-  color: #8E7037; }
+    color: #f85959;
+}
 .product-package_item .text p {
   color: #333;
   font-size: 13px;
@@ -9568,9 +9570,10 @@ textarea.form-control {
   width: 100px;
   padding: 0; }
 .product-package_item .text .product-package_price .btn:hover {
-  background: #8E7037;
+    background: #f85959;
   color: #FFF;
-  border: 2px solid #8E7037; }
+    border: 2px solid #f85959;
+}
 
 .product-detail_rates {
   padding-bottom: 20px; }
@@ -9689,7 +9692,8 @@ textarea.form-control {
   border: 1px solid #333;
   position: absolute; }
 .calendar_custom .calendar_tabel td a:hover:before {
-  border: 1px solid #8E7037; }
+    border: 1px solid #f85959;
+}
 .calendar_custom .calendar_tabel td a small {
   position: absolute;
   top: 5px;
@@ -9760,7 +9764,8 @@ textarea.form-control {
 .product-detail_item .text h2 a {
   color: #333; }
 .product-detail_item .text h2 a:hover {
-  color: #8E7037; }
+    color: #f85959;
+}
 .product-detail_item .text ul {
   color: #898989;
   margin-top: 10px;
@@ -9792,6 +9797,6 @@ textarea.form-control {
   width: 100px;
   height: 35px; }
 .product-detail_item .text .btn:hover {
-  background: #8E7037;
-  border: 2px solid #8E7037;
+    background: #f85959;
+    border: 2px solid #f85959;
   color: #FFF; }
